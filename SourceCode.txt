@@ -1,0 +1,39 @@
+int x;
+int y;
+int i=5;
+float f=2.3;
+char c= 'm';
+a=b+c;
+a=1+2;
+x=x && y;
+const int x =5;
+
+for (int i =0 ; i<5 ;i=i+1)
+{int x = 0;}
+
+while (x<0)
+{x=x+1;}
+
+do { x=x+1;}
+while (x<0)
+
+switch(x)
+{
+case 5:
+x=6;
+break;
+case 6:
+x=7;
+default:
+x=0;
+}
+
+int Max (int a, int b)
+{
+int m=0;
+if (a>b)
+m=a;
+else
+m=b;
+return m;
+}
